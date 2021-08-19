@@ -1,0 +1,12 @@
+.Todo {
+    background-color: #a8dadc;
+    width: 500px;
+    min-height: 300px;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 450px) {
+    .Todo {
+      width: 100%;
+    }
+}
