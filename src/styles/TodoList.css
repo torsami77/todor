@@ -1,0 +1,49 @@
+.Todo .TodoItem {
+    border-radius: 8px;
+    align-items: center;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #457b9d;
+    color: #fff;
+    width: 400px;
+    min-height: 100px;
+    padding: 10px;
+    list-style-position: inside;
+}
+  
+.Todo .TodoItem .Controls {
+    float: right;
+}
+  
+.Todo .TodoItem .Controls .Control-Icon {
+    margin-right: 5px;
+}
+  
+.Todo .TodoItem .Controls .Control-Icon:hover {
+    cursor: pointer;
+    background-color: #a8dadc;
+    border-radius: 25%;
+}
+  
+.Todo Form .Form-Element {
+    margin-bottom: 10px;
+}
+  
+.Todo .TodoItem li {
+    cursor: pointer;
+    margin-top: 20px;
+}
+  
+.Todo .TodoItem .Description {
+    text-align: center;
+    font-size: 15px;
+}
+  
+@media only screen and (max-width: 450px) {
+    .Todo .TodoItem {
+      width: 80%;
+    }
+}
+  
+  
